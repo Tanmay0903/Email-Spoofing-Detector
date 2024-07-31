@@ -47,16 +47,17 @@ Usage
 
 Example
 Sample Email Header
+            
+    Received: from unknown (HELO mail.example.com) (192.0.2.1)
+    Received-SPF: fail (example.com: domain of spoofed@example.com does not designate 192.0.2.1 as permitted sender)
+    X-SPAM-Status: Yes
+    From: spoofed@example.com
+    To: victim@example.com
+    Subject: Urgent!
+    Date: Wed, 28 Jul 2024 12:34:56 +0000
+    Message-ID: <20240728123456@mail.example.com>
+    Content-Type: text/plain; charset=UTF-8
 
-Received: from unknown (HELO mail.example.com) (192.0.2.1)
-Received-SPF: fail (example.com: domain of spoofed@example.com does not designate 192.0.2.1 as permitted sender)
-X-SPAM-Status: Yes
-From: spoofed@example.com
-To: victim@example.com
-Subject: Urgent!
-Date: Wed, 28 Jul 2024 12:34:56 +0000
-Message-ID: <20240728123456@mail.example.com>
-Content-Type: text/plain; charset=UTF-8
 
 
 Result
