@@ -37,27 +37,6 @@ Technologies Used
     CSS
     JavaScript
 
-Getting Started
-
-To run this project locally:
-
-    Clone the repository:
-
-    bash
-
-git clone https://github.com/yourusername/email-spoofing-detector.git
-
-Navigate to the project directory:
-
-bash
-
-cd email-spoofing-detector
-
-Open index.html in your web browser:
-
-bash
-
-    open index.html
 
 Usage
 
